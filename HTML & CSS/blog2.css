@@ -1,0 +1,29 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	border: 20px solid #B2B7C0;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	/*margin: 2% 10 %;
+	margin: 2% 20%;*/
+}
+
+h1 {
+	color: #30334D;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.date {
+	letter-spacing: 0.2em;
+	color: #5180DE;
+}
+
+div {
+	padding: 3% 3%;
+}
+
+.firstp{
+	border-left: 5px solid #B2B7C0;
+	padding-left: 7px;
+}

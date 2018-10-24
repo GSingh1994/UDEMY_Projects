@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<style type="text/css">
+		.jumbotron {
+			widths: 500px;
+			margin: 0 auto;
+			padding-top: 100px;
+			border: 2px dotted gray;
+			text-align: center;
+			color: red;
+		}
+		#Banner {
+		    font-family: 'Kodchasan';
+		}
+		.green{
+			color: green;
+		}
+		.pOne,.pTwo{
+			margin-right: 20px;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Kodchasan:600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head> 
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1 id="Banner">SCORE KEEPER</h1>
+			
+			<h1><span class = "p1score">0</span> to <span class = "p2score">0</span></h1>
+			
+			<h3>Playing to: <span class="game">0</span></h3>
+			
+			<input class = "field form-control form-control-sm" type="number" placeholder="Enter number" value="0">
+			
+			<button class="pOne btn btn-primary">Player One</button>
+			<button class="pTwo btn btn-primary">Player Two</button>
+			<button class="reset btn btn-danger">Reset</button>
+			
+			
+			<!-- <script type="text/javascript" src="Score_Keeper.js"></script> -->
+			<script type="text/javascript" src="score_keeper_v2.js"></script>
+    	</div>
+
+	</div>
+</body>
+</html>

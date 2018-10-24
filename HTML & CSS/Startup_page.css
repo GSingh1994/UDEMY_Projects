@@ -1,0 +1,29 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-image: url(https://images.unsplash.com/photo-1512421763895-b31d3c03ac84?ixlib=rb-0.3.5&s=6f3cf78db2e850c9260d4d8ce4deae1f&auto=format&fit=crop&w=1645&q=80);
+	background-size: cover;
+	background-position: center;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+	font-weight: bold;
+	font-size: 5em;
+}
+
+#content{
+	text-align: center;
+	padding-top: 25%;
+	color: #000214;
+	text-shadow: 1px 1px 2px white;
+}
+
+hr{
+	width: 400px;
+}
+
+.navbar-default .navbar-brand{
+color: #000214;
+}
